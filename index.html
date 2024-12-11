@@ -15,161 +15,158 @@
     <title>Frontend Mentor | Product list with cart</title>
   </head>
   <body>
-    <section id="products">
-      <h1>Desserts</h1>
+    <main>
+      <section id="products">
+        <h1>Desserts</h1>
 
-      <div class="products-list">
-        <div class="items">
-          <img
-            class="desktop"
-            src="/Resources/image-waffle-desktop.jpg"
-            alt=""
-          />
-          <img
-            class="mobile"
-            src="/Resources/image-waffle-mobile.jpg"
-            alt=""
-          />
+        <div class="products-list"></div>
+      </section>
 
-          <div class="add">
-            <img src="/Resources/icon-add-to-cart.svg" alt="" />
-            <p>Add to Cart</p>
+      <section id="cart">
+        <h1>Your Cart &lpar;<span class="cart-qty">0</span>&rpar;</h1>
+        <div class="empty">
+          <img src="/Resources/illustration-empty-cart.svg" alt="" />
+          <p>Your added items will appear here</p>
+        </div>
+
+        <button type="button" class="confirm-order-btn">Confirm Order</button>
+      </section>
+    </main>
+    <section id="confirmed">
+      <div class="confirmed">
+        <img
+          class="sold"
+          src="/Resources/icon-order-confirmed.svg"
+          alt="confirmed"
+        />
+        <h2>Order Confirmed</h2>
+        <p>We hope you enjoy your food!</p>
+        <!-- Chosen Items Displayed -->
+        <div id="orders">
+          <!-- Each Item -->
+          <div class="order">
+            <!-- Pic and name side -->
+            <div class="not-price">
+              <img
+                src="/Resources/image-baklava-thumbnail.jpg"
+                alt="Thumbnails Only"
+              />
+              <!-- About the Item -->
+              <div class="item-confirmed-details">
+                <h3>Classic Tiramisu</h3>
+                <!-- Qty and Unit Price -->
+                <div>
+                  <p><span  class="confirmed-unit-qty">1</span>x</p>
+                  <p>
+                    @ &dollar;<span class="confirmed-unit-price">5.50</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- total price of each item -->
+            <p>&dollar;<span class="confirmed-item-price">5.50</span></p>
           </div>
-
-          <div class="info">
-            <p>Waffle</p>
-            <h2>Waffle with berries</h2>
-            <h3>&dollar;6.50</h3>
+          <hr>
+          <div class="order">
+            <!-- Pic and name side -->
+            <div class="not-price">
+              <img
+                src="/Resources/image-baklava-thumbnail.jpg"
+                alt="Thumbnails Only"
+              />
+              <!-- About the Item -->
+              <div class="item-confirmed-details">
+                <h3>Classic Tiramisu</h3>
+                <!-- Qty and Unit Price -->
+                <div>
+                  <p><span  class="confirmed-unit-qty">1</span>x</p>
+                  <p>
+                    @ &dollar;<span class="confirmed-unit-price">5.50</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- total price of each item -->
+            <p>&dollar;<span class="confirmed-item-price">5.50</span></p>
+          </div>
+          <hr>
+          <div class="order">
+            <!-- Pic and name side -->
+            <div class="not-price">
+              <img
+                src="/Resources/image-baklava-thumbnail.jpg"
+                alt="Thumbnails Only"
+              />
+              <!-- About the Item -->
+              <div class="item-confirmed-details">
+                <h3>Classic Tiramisu</h3>
+                <!-- Qty and Unit Price -->
+                <div>
+                  <p><span  class="confirmed-unit-qty">1</span>x</p>
+                  <p>
+                    @ &dollar;<span class="confirmed-unit-price">5.50</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- total price of each item -->
+            <p>&dollar;<span class="confirmed-item-price">5.50</span></p>
+          </div>
+          <hr>
+          <div class="order">
+            <!-- Pic and name side -->
+            <div class="not-price">
+              <img
+                src="/Resources/image-baklava-thumbnail.jpg"
+                alt="Thumbnails Only"
+              />
+              <!-- About the Item -->
+              <div class="item-confirmed-details">
+                <h3>Classic Tiramisu</h3>
+                <!-- Qty and Unit Price -->
+                <div>
+                  <p><span  class="confirmed-unit-qty">1</span>x</p>
+                  <p>
+                    @ &dollar;<span class="confirmed-unit-price">5.50</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- total price of each item -->
+            <p>&dollar;<span class="confirmed-item-price">5.50</span></p>
+          </div>
+          <hr>
+          <div class="order">
+            <!-- Pic and name side -->
+            <div class="not-price">
+              <img
+                src="/Resources/image-baklava-thumbnail.jpg"
+                alt="Thumbnails Only"
+              />
+              <!-- About the Item -->
+              <div class="item-confirmed-details">
+                <h3>Classic Tiramisu</h3>
+                <!-- Qty and Unit Price -->
+                <div>
+                  <p><span  class="confirmed-unit-qty">1</span>x</p>
+                  <p>
+                    @ &dollar;<span class="confirmed-unit-price">5.50</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- total price of each item -->
+            <p>&dollar;<span class="confirmed-item-price">5.50</span></p>
+          </div>
+          <hr />
+          <!-- Order Total -->
+          <div class="confirmed-total">
+            <p>Order Total</p>
+            <h2 class="confirmed-total-price">&dollar;46.50</h2>
           </div>
         </div>
-        <!-- <div class="items">
-          <img class="desktop" src="" alt="" />
-          <img class="mobile" src="" alt="" />
 
-          <div class="add">
-            <img src="/Resources/icon-add-to-cart.svg" alt="" />
-            <p>Add to cart</p>
-          </div>
-
-          <div class="info">
-            <h2></h2>
-            <p></p>
-            <p></p>
-          </div>
-        </div>
-        <div class="items">
-          <img class="desktop" src="" alt="" />
-          <img class="mobile" src="" alt="" />
-
-          <div class="add">
-            <img src="/Resources/icon-add-to-cart.svg" alt="" />
-            <p>Add to cart</p>
-          </div>
-
-          <div class="info">
-            <h2></h2>
-            <p></p>
-            <p></p>
-          </div>
-        </div>
-        <div class="items">
-          <img class="desktop" src="" alt="" />
-          <img class="mobile" src="" alt="" />
-
-          <div class="add">
-            <img src="/Resources/icon-add-to-cart.svg" alt="" />
-            <p>Add to cart</p>
-          </div>
-
-          <div class="info">
-            <h2></h2>
-            <p></p>
-            <p></p>
-          </div>
-        </div>
-        <div class="items">
-          <img class="desktop" src="" alt="" />
-          <img class="mobile" src="" alt="" />
-
-          <div class="add">
-            <img src="/Resources/icon-add-to-cart.svg" alt="" />
-            <p>Add to cart</p>
-          </div>
-
-          <div class="info">
-            <h2></h2>
-            <p></p>
-            <p></p>
-          </div>
-        </div>
-        <div class="items">
-          <img class="desktop" src="" alt="" />
-          <img class="mobile" src="" alt="" />
-
-          <div class="add">
-            <img src="/Resources/icon-add-to-cart.svg" alt="" />
-            <p>Add to cart</p>
-          </div>
-
-          <div class="info">
-            <h2></h2>
-            <p></p>
-            <p></p>
-          </div>
-        </div>
-        <div class="items">
-          <img class="desktop" src="" alt="" />
-          <img class="mobile" src="" alt="" />
-
-          <div class="add">
-            <img src="/Resources/icon-add-to-cart.svg" alt="" />
-            <p>Add to cart</p>
-          </div>
-
-          <div class="info">
-            <h2></h2>
-            <p></p>
-            <p></p>
-          </div>
-        </div>
-        <div class="items">
-          <img class="desktop" src="" alt="" />
-          <img class="mobile" src="" alt="" />
-
-          <div class="add">
-            <img src="/Resources/icon-add-to-cart.svg" alt="" />
-            <p>Add to cart</p>
-          </div>
-
-          <div class="info">
-            <h2></h2>
-            <p></p>
-            <p></p>
-          </div>
-        </div>
-        <div class="items">
-          <img class="desktop" src="" alt="" />
-          <img class="mobile" src="" alt="" />
-
-          <div class="add">
-            <img src="/Resources/icon-add-to-cart.svg" alt="" />
-            <p>Add to cart</p>
-          </div>
-
-          <div class="info">
-            <h2></h2>
-            <p></p>
-            <p></p>
-          </div>
-        </div> -->
-      </div>
-    </section>
-
-    <section id="cart">
-      <h1>Your Cart &lpar;<span class="cart-qty">0</span>&rpar;</h1>
-      <div class="empty">
-        <img src="/Resources/illustration-empty-cart.svg" alt="" />
-      <p>Your added items will appear here</p>
+        <button type="button">Start New Order</button>
       </div>
     </section>
 
